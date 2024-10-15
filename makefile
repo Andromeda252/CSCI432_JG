@@ -1,5 +1,5 @@
-lex.yy.c y.tab.h: gilstorf01.lex
-	lex gilstorf01.lex
+lex.yy.c y.tab.h: gilstorf01.c
+	lex gilstorf01.c
 
 y.tab.c: gilstorf01.yacc
 	yacc -d gilstorf01.yacc
